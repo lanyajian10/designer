@@ -11,3 +11,4 @@
 9.Abstract.observer         观察者模式
 10.Abstract.Proxy           代理模式
 11.Abstract.Singleton       单例模式
+
