@@ -1,6 +1,8 @@
 package Abstract.Bridge;
 
-
+/*
+    桥接模式
+ */
 class Color
 {
     public String color;
@@ -23,7 +25,6 @@ interface Brush
 }
 class BigBrush implements Brush
 {
-    @Override
     public void Paint(Color c)
     {
         System.out.println("Using big brush and color  painting："+c.color);
@@ -31,7 +32,6 @@ class BigBrush implements Brush
 }
 class smallBrush implements Brush
 {
-    @Override
     public void Paint(Color c) {
         System.out.println("Useing small brush and color  painting："+c.color);
     }

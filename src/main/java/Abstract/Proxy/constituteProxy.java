@@ -24,12 +24,10 @@ interface Subject2
 
 class RealSubject1 implements Subject1,Subject2
 {
-    @Override
     public String do2(String meg) {
         System.out.println("发来的信息是: "+meg);
         return null;
     }
-    @Override
     public void do1() {
         System.out.println("自创信息");
     }
@@ -50,7 +48,6 @@ class intercept
 
 class Invocation implements InvocationHandler
 {
-    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
     {
         intercept intercept = new intercept();

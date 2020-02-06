@@ -1,4 +1,5 @@
 /**
+ * 抽象工厂模式
  * 产品族      -----奥迪   大众
  * 产品等级：   -----高配  低配
  */
@@ -42,13 +43,12 @@ class CarImpl implements Car
         return this;
     }
 
-    @Override
+
     public void start()
     {
 
     }
 
-    @Override
     public void stop()
     {
 
@@ -94,12 +94,10 @@ interface Car_Factory
 class Car_Factory_dev implements Car_Factory
 {
 
-    @Override
     public Car getAuDi() {
         return new AuDi().setName("奥迪A6").setSpeed(300);
     }
 
-    @Override
     public Car getW() {
         return new W().setName("大众A6").setSpeed(300);
     }
@@ -107,12 +105,10 @@ class Car_Factory_dev implements Car_Factory
 class Car_Factory_low implements Car_Factory
 {
 
-    @Override
     public Car getAuDi() {
         return new AuDiLow().setName("奥迪A6").setSpeed(300);
     }
 
-    @Override
     public Car getW() {
         return new WLow().setName("大众A6").setSpeed(300);
     }

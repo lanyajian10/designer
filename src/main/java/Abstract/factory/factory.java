@@ -10,7 +10,6 @@ interface InProductFactory
 class InProductAFactory implements InProductFactory
 {
 
-    @Override
     public Product getProduct()
     {
         return new ProductA();
@@ -18,7 +17,6 @@ class InProductAFactory implements InProductFactory
 }
 class InProductBFactory implements InProductFactory
 {
-    @Override
     public Product getProduct()
     {
         return new ProductB();

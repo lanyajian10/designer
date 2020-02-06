@@ -31,7 +31,7 @@ class Earth extends Observable
 class Satellite implements Observer
 {
     private String weather ;
-    @Override
+
     public void update(Observable o, Object arg)
     {
         weather = (String)arg;
