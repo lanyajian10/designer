@@ -22,4 +22,13 @@
 
 11.Abstract.Singleton       单例模式
 
+principle                                        7大设计原则
+    test1.singleResponsibityPrinciple            1.单一设计原则(SRP) 
+    test2.interfaceSegregationPrinciple          2.接口隔离原则(ISP)
+    tesr3.dependenceInversionPrinciple           3.依赖倒置原则(DIP)
+    test4.liskovSubititutionPrinciple            4.里氏替换原则(LSP)
+    test5.openClosedPrinciple                    5.开闭原则(OCP)
+    test6.DemeterPrinciple                       6.迪米特原则(DP)
+    test7.compositeReusePrinciple                7.合成复用原则(CRP)
+
 

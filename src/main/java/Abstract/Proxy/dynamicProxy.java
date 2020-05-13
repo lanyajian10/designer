@@ -15,7 +15,6 @@ import java.lang.reflect.Proxy;
 class RealSubject11 implements Subject1
 {
 
-    @Override
     public void do1() {
         System.out.println("自创信息");
     }
@@ -31,7 +30,6 @@ class Invocation1 implements InvocationHandler
         this.real = realSubject1;
         this.in = ins;
     }
-    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
     {
         //添加的  执行前处理
