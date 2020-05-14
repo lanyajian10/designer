@@ -1,27 +1,4 @@
 # 23种设计模式 designer
-
-1.Interface.Adapter         适配器模式
-
-2.Abstract.Bridge           桥接模式
-
-3.Abstract.commond          命令模式
-
-4.Abstract.duty             责任型模式
-
-5.Abstract.factory          工厂方法模式
-
-6.Abstract.abstractFactory  抽象工厂方模式
-
-7.Abstract.group            组合模式
-
-8.Abstract.intermediary     中介模式
-
-9.Abstract.observer         观察者模式
-
-10.Abstract.Proxy           代理模式
-
-11.Abstract.Singleton       单例模式
-
 principle                                        7大设计原则
     test1.singleResponsibityPrinciple            1.单一设计原则(SRP) 
     test2.interfaceSegregationPrinciple          2.接口隔离原则(ISP)
@@ -31,4 +8,11 @@ principle                                        7大设计原则
     test6.DemeterPrinciple                       6.迪米特原则(DP)
     test7.compositeReusePrinciple                7.合成复用原则(CRP)
 
-
+designMode
+    create.singleton.hungry1               1.单例饿汉：静态常量
+    create.singleton.hungry2               2.单例饿汉：静态代码块
+    create.singleton.lazy3                 3.单例懒汉：线程不安全
+    create.singleton.lazy4                 4.单例懒汉：同步方法
+    create.singleton.lazy5                 5.单例懒汉：双重锁
+    create.singleton.lazy6                 6.单例懒汉：静态内部类
+    create.singleton.lazy7                 7.单例懒汉：枚举类
