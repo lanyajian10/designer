@@ -20,7 +20,7 @@ interface Message{
 interface Receiver{
     void receive(Message message);
 }
-class Persions implements Receiver {
+class Persons implements Receiver {
     @Override
     public void receive(Message message) {
         message.send();

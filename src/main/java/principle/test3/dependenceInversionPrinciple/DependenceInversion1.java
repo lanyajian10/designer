@@ -18,7 +18,7 @@ class Email {
 }
 
 
-class Persion {
+class Person {
     public void receive(Email email){
         System.out.println(email.meg());
     }
