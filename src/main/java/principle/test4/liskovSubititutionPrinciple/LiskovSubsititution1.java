@@ -1,4 +1,4 @@
-package principle.test4.liskovSubstitutionPrinciple;
+package principle.test4.liskovSubititutionPrinciple;
 
 /**
  * 里氏替换原则 （Liskov Subsititution Principle LSP）
