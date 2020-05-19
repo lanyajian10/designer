@@ -1,4 +1,4 @@
-package designMode.structural.adapter.ObjectAdapter;
+package designMode.structural.adapter.objectAdapter;
 
 import designMode.structural.adapter.service.Impl._220VImpl;
 import designMode.structural.adapter.service._110V;

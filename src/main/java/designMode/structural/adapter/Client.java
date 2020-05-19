@@ -1,8 +1,8 @@
 package designMode.structural.adapter;
 
 
-import designMode.structural.adapter.ClassAdapter.ClassAdapter;
-import designMode.structural.adapter.ObjectAdapter.ObjectAdapter;
+import designMode.structural.adapter.classAdapter.ClassAdapter;
+import designMode.structural.adapter.objectAdapter.ObjectAdapter;
 import designMode.structural.adapter.service.Impl._220VImpl;
 
 /**

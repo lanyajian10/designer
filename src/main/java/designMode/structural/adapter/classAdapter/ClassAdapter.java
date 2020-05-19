@@ -1,4 +1,4 @@
-package designMode.structural.adapter.ClassAdapter;
+package designMode.structural.adapter.classAdapter;
 
 import designMode.structural.adapter.service.Impl._110VImpl;
 import designMode.structural.adapter.service._V220;
