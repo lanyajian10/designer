@@ -6,7 +6,7 @@ package principle.test1.singleResponsibityPrinciple;
  * @create 2020-05-12-21:53
  */
 public class SingleResponsibility3 {
-//    public static void main(String[] args) {
+//    public staticProxy void main(String[] args) {
 //        Vehicles vehicles = new Vehicles();
 //        vehicles.airRun("飞机");
 //        vehicles.roadRun("汽车");
