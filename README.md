@@ -62,10 +62,10 @@
 #####    2.3.4  iteration              迭代器模式
             针对不同数据容器，创建不同迭代器
             数据结构---遍历方式 的解耦
-#####    2.3.5  iteration              观察者模式
-#####    2.3.6  iteration              中介者模式
-#####    2.3.7  iteration              备忘录模式
-#####    2.3.8  iteration              解释器模式
-#####    2.3.9  iteration              状态模式
-#####    2.3.10 iteration              策略模式
-#####    2.3.11 iteration              责任链模式
+#####    2.3.5  observer               观察者模式
+#####    2.3.6  mediator               中介者模式
+#####    2.3.7  memorandum             备忘录模式
+#####    2.3.8  interpreter            解释器模式
+#####    2.3.9  state                  状态模式
+#####    2.3.10 strategy               策略模式
+#####    2.3.11 chain                  责任链模式
