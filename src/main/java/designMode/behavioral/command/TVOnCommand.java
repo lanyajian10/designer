@@ -12,6 +12,7 @@ public class TVOnCommand implements Command {
         this.tv = tv;
     }
 
+    @Override
     public void execute() {
         tv.on();
     }

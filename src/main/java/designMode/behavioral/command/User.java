@@ -39,21 +39,23 @@ public class User {
         undo.undo();
     }
 
+    //#####################################################
 
+    class Video implements Command{
+
+        @Override
+        public void execute() {
+            System.out.println("VIDEO打开");
+        }
+
+        @Override
+        public void undo() {
+            System.out.println("VIDEO关闭");
+        }
+    }
 
     public void videoOn(){
-        class Video implements Command{
 
-            @Override
-            public void execute() {
-                System.out.println("VIDEO打开");
-            }
-
-            @Override
-            public void undo() {
-                System.out.println("VIDEO关闭");
-            }
-        }
         execute(new Video());
     }
 
