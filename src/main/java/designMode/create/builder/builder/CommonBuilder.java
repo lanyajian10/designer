@@ -1,5 +1,6 @@
 package designMode.create.builder.builder;
 
+import lombok.Data;
 import lombok.Setter;
 
 /**
@@ -16,18 +17,22 @@ public class CommonBuilder implements Builder {
         this.house = house;
     }
 
+    @Override
     public void buildBasic() {
         house.setBasic(5);
     }
 
+    @Override
     public void buildWall() {
         house.setWall(10);
     }
 
+    @Override
     public void buildRoof() {
         house.setRoof(1);
     }
 
+    @Override
     public House builder() {
         System.out.println( house.toString());
         return house;
