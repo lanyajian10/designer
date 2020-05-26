@@ -1,5 +1,6 @@
 package designMode.behavioral.status;
 
+import designMode.behavioral.status.status.State;
 import lombok.Data;
 
 /**

@@ -1,4 +1,6 @@
-package designMode.behavioral.status;
+package designMode.behavioral.status.status;
+
+import designMode.behavioral.status.Context;
 
 /**
  * @author YJ Lan
