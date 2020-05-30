@@ -5,11 +5,10 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
 .gitignore
 target/classes/META-INF/
 target/classes/designMode/
 target/classes/principle/
 target/generated-sources/
 target/generated-test-sources/
+src/main/resources/
