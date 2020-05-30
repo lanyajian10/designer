@@ -6,9 +6,6 @@
 .idea
 *.iml
 .gitignore
-target/classes/META-INF/
-target/classes/designMode/
-target/classes/principle/
-target/generated-sources/
-target/generated-test-sources/
 src/main/resources/
+src/test/
+target/classes/
