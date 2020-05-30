@@ -1,4 +1,4 @@
-package designMode.structural.decorator;
+package designMode.structural.decorator.bePack;
 
 import lombok.Data;
 

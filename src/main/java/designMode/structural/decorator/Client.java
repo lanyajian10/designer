@@ -1,5 +1,10 @@
 package designMode.structural.decorator;
 
+import designMode.structural.decorator.bePack.Drink;
+import designMode.structural.decorator.bePack.LongBlack;
+import designMode.structural.decorator.pack.ChocoLate;
+import designMode.structural.decorator.pack.Milk;
+
 /**
  * @author YJ Lan
  * @create 2020-05-19-22:25

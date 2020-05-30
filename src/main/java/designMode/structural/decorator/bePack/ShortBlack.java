@@ -1,4 +1,6 @@
-package designMode.structural.decorator;
+package designMode.structural.decorator.bePack;
+
+import designMode.structural.decorator.bePack.Coffee;
 
 /**
  * @author YJ Lan
