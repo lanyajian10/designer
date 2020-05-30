@@ -1,4 +1,4 @@
-package designMode.behavioral.iteration;
+package designMode.behavioral.iteration.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

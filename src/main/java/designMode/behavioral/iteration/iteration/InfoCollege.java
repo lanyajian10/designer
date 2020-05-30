@@ -1,4 +1,6 @@
-package designMode.behavioral.iteration;
+package designMode.behavioral.iteration.iteration;
+
+import designMode.behavioral.iteration.common.Department;
 
 import java.util.ArrayList;
 import java.util.Iterator;

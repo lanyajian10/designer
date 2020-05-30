@@ -1,5 +1,9 @@
 package designMode.behavioral.iteration;
 
+import designMode.behavioral.iteration.iteration.College;
+import designMode.behavioral.iteration.iteration.ComputerCollege;
+import designMode.behavioral.iteration.iteration.InfoCollege;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

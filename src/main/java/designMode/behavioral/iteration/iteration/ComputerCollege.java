@@ -1,6 +1,6 @@
-package designMode.behavioral.iteration;
+package designMode.behavioral.iteration.iteration;
 
-import designMode.behavioral.command.Command;
+import designMode.behavioral.iteration.common.Department;
 
 import java.util.Iterator;
 

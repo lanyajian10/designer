@@ -1,4 +1,4 @@
-package designMode.behavioral.iteration;
+package designMode.behavioral.iteration.iteration;
 
 import java.util.Iterator;
 
