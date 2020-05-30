@@ -1,4 +1,6 @@
-package designMode.behavioral.command;
+package designMode.behavioral.command.connand;
+
+import designMode.behavioral.command.received.TV;
 
 /**
  * @author YJ Lan

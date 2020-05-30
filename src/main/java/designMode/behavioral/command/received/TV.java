@@ -1,4 +1,4 @@
-package designMode.behavioral.command;
+package designMode.behavioral.command.received;
 
 /**
  * @author YJ Lan

@@ -1,4 +1,6 @@
-package designMode.behavioral.command;
+package designMode.behavioral.command.publish;
+
+import designMode.behavioral.command.connand.Command;
 
 /**
  * @author YJ Lan
