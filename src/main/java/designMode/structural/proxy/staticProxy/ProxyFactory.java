@@ -20,4 +20,9 @@ public class ProxyFactory implements ITeachDao {
         iTeachDao.teach();
         System.out.println("执行后....");
     }
+
+    @Override
+    public void read() {
+
+    }
 }

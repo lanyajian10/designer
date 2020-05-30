@@ -28,6 +28,7 @@ public class ProxyFactory implements MethodInterceptor {
         return enhancer.create();
     }
 
+    @Override
     public Object intercept(Object o, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
         System.out.println("执行前....");
         Object invoke = method.invoke(iTeachDao, args);

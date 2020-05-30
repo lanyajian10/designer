@@ -6,4 +6,6 @@ package designMode.structural.proxy.common;
  */
 public interface ITeachDao {
     void teach();
+
+    void read();
 }

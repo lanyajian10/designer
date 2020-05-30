@@ -23,6 +23,7 @@ public class ProxyFactory {
                 iTeachDao.getClass().getClassLoader(),
                 iTeachDao.getClass().getInterfaces(),
                 new InvocationHandler() {
+                    @Override
                     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                         System.out.println("执行前...");
                         Object invoke = method.invoke(iTeachDao, args);

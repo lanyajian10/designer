@@ -9,4 +9,10 @@ public class TeachDao implements ITeachDao {
     public void teach() {
         System.out.println("教学开始.....");
     }
+
+    @Override
+    public void read() {
+        System.out.println("读书开始.....");
+    }
+
 }
