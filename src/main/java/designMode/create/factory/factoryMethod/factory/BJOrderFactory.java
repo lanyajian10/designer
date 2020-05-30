@@ -11,7 +11,7 @@ import designMode.create.factory.factoryMethod.order.OrderPizza;
  */
 public class BJOrderFactory extends OrderPizza {
 
-
+    @Override
     public  Pizza create(String orderType){
         Pizza pizza = null;
 

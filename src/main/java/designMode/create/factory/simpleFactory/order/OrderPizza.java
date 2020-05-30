@@ -5,8 +5,8 @@ import designMode.create.factory.Base.Pizza;
 import designMode.create.factory.simpleFactory.factory.OrderFactory;
 
 /**
- * 工厂方法前：不符合ocp原则，如果有很多种订单，每增加一种Pizza种类，需要修改很多代码
- * 工厂方法后：符合ocp，即便有很多种披萨订单，我们只需要修改一个工厂类
+ * 工厂方法前：我们需要自己去new创建对象
+ * 工厂方法后：封装至工厂中去，不需要知道创建细节。（DP）
  * @author YJ Lan
  * @create 2020-05-17-19:40
  */
