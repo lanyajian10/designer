@@ -1,4 +1,6 @@
-package designMode.behavioral.observer;
+package designMode.behavioral.observer.beObServer;
+
+import designMode.behavioral.observer.observer.ObServer;
 
 /**
  * @author YJ Lan

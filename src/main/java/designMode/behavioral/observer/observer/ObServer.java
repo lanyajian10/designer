@@ -1,4 +1,4 @@
-package designMode.behavioral.observer;
+package designMode.behavioral.observer.observer;
 
 /**
  * @author YJ Lan

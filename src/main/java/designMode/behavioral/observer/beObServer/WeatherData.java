@@ -1,4 +1,7 @@
-package designMode.behavioral.observer;
+package designMode.behavioral.observer.beObServer;
+
+
+import designMode.behavioral.observer.observer.ObServer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +24,7 @@ public class WeatherData implements Subject {
         this.weather = weather;
         notifyObserver();
     }
+
 
     @Override
     public void registerObserver(ObServer obServer) {
