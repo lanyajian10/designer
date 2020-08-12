@@ -2,7 +2,7 @@ package principle.test7.compositeReusePrinciple;
 
 /**
  * 合成复用原则(CompositeReusePrinciple CRP)
- * 核心：尽量使用合成/聚合方式  而不是继承
+ * 核心：尽量使用组合/聚合方式  而不是继承
  *
  *
  *
